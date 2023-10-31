@@ -11,5 +11,4 @@ public class GachonCrpytoGatewayApplication {
     public static void main(String[] args) {
         SpringApplication.run(GachonCrpytoGatewayApplication.class, args);
     }
-
 }
