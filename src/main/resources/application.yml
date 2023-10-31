@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gachon-crpyto-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: memberservice
+          uri: http://localhost:8081/
+          predicates:
+            - Path = /api/member/**
