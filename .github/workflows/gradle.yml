@@ -1,4 +1,4 @@
-name: Baggle Production Server CI/CD
+name: Gateway Production Server CI/CD
 
 on:
   push:
